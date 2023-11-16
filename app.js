@@ -18,9 +18,7 @@ db.once('open', () => {
 
 // Rota principal
 app.get('/', (req, res) => {
-  res.send('Hello, Docker World!');
-  res.send('Trabalho de Docker');
-  res.send('Feito por: Kaleu Farias, Artur Nola ');
+  res.send('Hello, Docker World! Trabalho de Docker Feito por: Kaleu Farias, Artur Nolli');
 });
 
 app.listen(port, () => {
